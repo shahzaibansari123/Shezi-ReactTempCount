@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding:0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +8,142 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Bright{
+  background-color: white;
+  color: black;
+  font-size: 102px;
+  border-color: rgb(0, 0, 0);
+  border: 20px solid;
+  border-radius: 50px;
+  margin:5% 25% 5% 25%;
+  text-align: center;
+  padding: 1% 2% 1% 2%;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+.Dark{
+  color: white;
+  background-color: #18191a;
+  font-size: 102px;
+  border-color: rgb(255, 255, 255);
+  border: 20px solid;
+  border-radius: 50px;
+  margin:5% 25% 5% 25%;
+  text-align: center;
+  padding: 1% 2% 1% 2%;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.degree{
+  font-size: 38px;
+}
+
+.heading{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 48px;
+  text-align: left;
+  margin-bottom: 10%;
+  margin-top: -5%;
+  
+}
+
+.count1{
+  width: 150px;
+  height: 90px;
+  font-size: 48px;
+  margin-right: 15%;
+  margin-top: 10%;
+  border-radius: 100%;
+  border: 0px solid;
+  background-color: rgb(88, 13, 13);
+color: white;
+
+}
+
+.count2{
+  width: 150px;
+  height: 90px;
+  font-size: 48px;
+  margin-left: 15%;
+  margin-top: 10%;
+  border-radius: 100%;
+  border: 0px solid;
+  background-color: rgb(88, 13, 13);
+color: white;
+}
+
+.btns{
+  display: inline-flex;
+}
+
+
+/* toglbtn */
+.switch {
+  margin-left: 20%;
+  margin-top: 8%;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(228, 225, 225);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: transparent;
+  -webkit-transition: .4s;
+  transition: .4s;
+  background-image: url('assets/bright.png');
+  background-size: 26px 26px;
+}
+
+input:checked + .slider {
+  background-color: rgb(228, 225, 225);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px rgb(228, 225, 225);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  background-image: url('assets/dark.png');
+  background-size: 26px 26px;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+
