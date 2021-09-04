@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Shezi-ReactTempCount/static/css/main.d7950b5c.chunk.css",
+    "main.js": "/Shezi-ReactTempCount/static/js/main.fc09552e.chunk.js",
+    "main.js.map": "/Shezi-ReactTempCount/static/js/main.fc09552e.chunk.js.map",
+    "runtime-main.js": "/Shezi-ReactTempCount/static/js/runtime-main.2f011f81.js",
+    "runtime-main.js.map": "/Shezi-ReactTempCount/static/js/runtime-main.2f011f81.js.map",
+    "static/js/2.c876609d.chunk.js": "/Shezi-ReactTempCount/static/js/2.c876609d.chunk.js",
+    "static/js/2.c876609d.chunk.js.map": "/Shezi-ReactTempCount/static/js/2.c876609d.chunk.js.map",
+    "index.html": "/Shezi-ReactTempCount/index.html",
+    "static/css/main.d7950b5c.chunk.css.map": "/Shezi-ReactTempCount/static/css/main.d7950b5c.chunk.css.map",
+    "static/js/2.c876609d.chunk.js.LICENSE.txt": "/Shezi-ReactTempCount/static/js/2.c876609d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Shezi-ReactTempCount/static/media/dark.941dd38a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f011f81.js",
+    "static/js/2.c876609d.chunk.js",
+    "static/css/main.d7950b5c.chunk.css",
+    "static/js/main.fc09552e.chunk.js"
+  ]
+}
